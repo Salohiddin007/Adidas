@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.contsiner {
+    max-width: 1140px;  /* задаёт максимальную ширину элемента. Больше чем это значение он не будет */
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Rubik';
+} 
+.nav {
+    background: white;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.nav-list {
+    display: flex;
+}
+.nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+    display: inline-block;
+    margin-right: 30px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    padding-top: 31px;
+    padding-bottom: 26px;
+    transition: 0.5s ; /* задаёт плавность анимации */
+}
+/* :hover - псевдокласс для наведение */
+.nav-link:hover {
+    border-color: black;
+}
+.nav-logo {
+    padding-top: 15px;
+}
+.nav-form{
+    border-radius: 2;
+    display: flex;
+}
+.form-search{
+    outline: none;
+    border: 1px solid #000000;
+    border-radius: 10px 0px 0px 10px;
+    padding: 8px 12px;
+    color: #000000;
+    line-height: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    max-width: 216px;
+    width: 100%;
+}
+.form-btn{
+    background: #000000;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    padding: 8px 16px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    border: none;
+    max-width: 74px;
+    width: 100%;
+}
+
+.form-search::placeholder{
+    color: #000000;
+}
+.header-content {
+    background: url(Adidas/header-bg.png) no-repeat top / cover;
+    height: 100vh; /* vh-ivew-height - видимая высота экрана*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-title{
+    font-weight: 600;
+    font-size: 59px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+.header-text{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+}
+a:hover{
+    color: #09A7A1;
+  }
+  .header-title{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 59px;
+    line-height: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .header-text {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;/* делает все буквы заглавными */
+  }
+  .card {
+    background: #181D28;
+    width: 25%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+  }
+  .card-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 24px;
+  }
+  .cards {
+    display: flex;
+  }
+  .card:hover{
+    background: #6B4B6B;
+  }
+  .gear-title {
+    color: #000000;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .gear-description{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+  }
+  .gear-description:nth-of-type(1){
+    margin-bottom: 18px;
+  }
+
+  .gear-img {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .shoe-title{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  text-align: center;
+  padding-top: 40px;
+  }
+  .shoe-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .shoe-flex {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+  }
+  .shoe-link {
+  color: #000000;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  }
+  .margin {
+    padding-top: 14px;
+  }
+  .footer {
+    background: #181D28;
+    margin-top: 40px;
+  }
+  .footer-flex {
+    display: flex;
+  }
+  .footer-img {
+    padding: 35px 0 35px 35px;
+  }
+  .footer-links {
+    display: flex;
+    align-items: center;
+    margin-left: 900px ;
+  }
+  .footer-link {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 30px;
+  }
